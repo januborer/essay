@@ -4,7 +4,7 @@ set -e
 # git clone -b site-code git@github.com:JanU-YieG/JanU-YieG.github.io.git public
 # git submodule sync --recursive
 # git submodule update --init --recursive
-# mdbook build
+mdbook build
 current_branch=$(git branch --show-current)
 # Add changes to git.
 git pull --rebase --autostash origin $current_branch
