@@ -49,4 +49,4 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin $current_branch
+git push -f origin $current_branch
