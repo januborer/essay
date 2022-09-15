@@ -1,0 +1,6 @@
+[book]
+authors = ["Borer"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Essay"
