@@ -6,4 +6,4 @@
 
   这本书仅仅是记录自己想要说的话或者自己的思考，当然也有自己对技术的思考和想法。希望不会碰到瓷娃娃。希望结交一些爱读书的朋友，一起探讨问题或者某件事情，或者技术本身。
 
-> - [contact](5u4ccggbr@mozmail.com)
+> - contact me: 5u4ccggbr@mozmail.com
