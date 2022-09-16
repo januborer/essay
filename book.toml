@@ -1,6 +1,67 @@
 [book]
-authors = ["Borer"]
+authors = ["januborer"]
 language = "en"
 multilingual = false
 src = "src"
 title = "随笔"
+description = "个人思想觉悟记录,borer,januborer,道，自然，如来"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "book"
+create-missing = true
+use-default-preprocessors = true
+
+[output.html]
+# mathjax-support = true
+# theme = "my-theme"
+default-theme = "light"
+preferred-dark-theme = "navy"
+curly-quotes = true
+mathjax-support = true
+copy-fonts = true
+# additional-css = ["custom.css", "custom2.css"]
+# additional-js = ["custom.js"]
+no-section-label = false
+git-repository-url = "https://github.com/januborer/essay"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/januborer/essay/edit/main/{path}"
+site-url = "/essay/"
+# cname = "myproject.rs"
+# input-404 = "not-found.md"
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.fold]
+enable = false
+level = 0
+
+# [output.html.playground]
+# editable = false         # allows editing the source code
+# copyable = true          # include the copy button for copying code snippets
+# copy-js = true           # includes the JavaScript for the code editor
+# line-numbers = false     # displays line numbers for editable code
+# runnable = true          # displays a run button for rust code
+
+
+[output.html.search]
+enable = true            # enables the search feature
+limit-results = 30       # maximum number of search results
+teaser-word-count = 30   # number of words used for a search result teaser
+use-boolean-and = true   # multiple search terms must all match
+boost-title = 2          # ranking boost factor for matches in headers
+boost-hierarchy = 1      # ranking boost factor for matches in page names
+boost-paragraph = 1      # ranking boost factor for matches in text
+expand = true            # partial words will match longer terms
+heading-split-level = 3  # link results to heading levels
+copy-js = true           # include Javascript code for search
+
+
+[output.html.playground]
+editable = true
+runnable = false
+# editor = "/path/to/editor"
