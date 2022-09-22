@@ -5,3 +5,4 @@
   - [收拾精神](./thought/shoushijingshen.md)
   - [因果](./thought/yinguo.md)
   - [奸臣忠臣](./thought/jianchenzhongchen.md)
+  - [自知](./thought/zizhi.md)
