@@ -6,4 +6,5 @@
   - [因果](./thought/yinguo.md)
   - [奸臣忠臣](./thought/jianchenzhongchen.md)
   - [自知](./thought/zizhi.md)
-- []
+- [读书笔记](./books/summary.md)
+  - [处事书籍](./books/xinjiandothers.md)
