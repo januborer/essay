@@ -11,7 +11,3 @@
   这本书仅仅是记录自己想要说的话或者自己的思考。希望不会碰到瓷娃娃。希望结交一些爱读书的朋友，一起探讨问题或者某件事情，或者CS本身。
 
 > - Email: 5u4ccggbr@mozmail.com
->
-> - [Blog](https://januborer.github.io)
->
-> - [Messages](https://januborer.github.io/about)
