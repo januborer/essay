@@ -7,5 +7,6 @@
   - [奸臣忠臣](./thought/jianchenzhongchen.md)
   - [自知](./thought/zizhi.md)
   - [宏与微](./thought/hongyuwei.md)
+  - [规定与习惯](./thought/guidingyuxiguan.md)
 - [读书笔记](./books/summary.md)
   - [处事书籍](./books/weirenchushi.md)
