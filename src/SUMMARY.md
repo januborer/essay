@@ -9,6 +9,7 @@
   - [宏与微](./thought/hongyuwei.md)
   - [规定与习惯](./thought/guidingyuxiguan.md)
   - [真相](./thought/zhenxiang.md)
+  - [心\*律](./thought/xinhelv.md)
 - [读书笔记](./books/summary.md)
   - [处事书籍](./books/weirenchushi.md)
 
