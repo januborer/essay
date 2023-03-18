@@ -13,6 +13,7 @@
   - [重生](./thought/chongsheng.md)
   - [获取真相的能力和根据事实分析的能力和做出行为的能力](./thought/huoquxinxidenenglihegenjushishifenxidenenglihezuochuxingweidenengli.md)
   - [仁者心动和仁者无敌](./thought/renzhexindongherenzhewudi.md)
+  - [垃圾白话文](./thought/lajibaihuawen.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
