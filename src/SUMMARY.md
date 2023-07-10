@@ -15,6 +15,7 @@
   - [仁者心动和仁者无敌](./thought/renzhexindongherenzhewudi.md)
   - [垃圾白话文](./thought/lajibaihuawen.md)
   - [汉奸](./thought/hanjian.md)
+  - [对错](./thought/duicuo.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
