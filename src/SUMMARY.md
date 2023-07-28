@@ -16,6 +16,7 @@
   - [垃圾白话文](./thought/lajibaihuawen.md)
   - [汉奸](./thought/hanjian.md)
   - [对错](./thought/duicuo.md)
+  - [人生的意思](./thought/renshengdeyisi.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
