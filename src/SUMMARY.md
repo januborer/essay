@@ -23,6 +23,8 @@
   - [官方](./thought/guanfang.md)
   - [学科分类](./thought/xuekefenlei.md)
   - [Rust语言“Ownership”和其他语言的“GC”的创新思考](./thought/rustyyownershiphqtyydgcdcxsk.md)
+  - [语言](./thought/yuyan.md)
+  - [活计](./thought/huoji.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
