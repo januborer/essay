@@ -21,6 +21,7 @@
   - [眼耳鼻舌身-->记忆](./thought/yanerbisheshenjiyi.md)
   - [选拔大赛](./thought/xuanbadasai.md)
   - [官方](./thought/guanfang.md)
+  - [学科分类](./thought/xuekefenlei.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
