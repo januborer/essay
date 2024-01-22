@@ -26,6 +26,8 @@
   - [语言](./thought/yuyan.md)
   - [活计](./thought/huoji.md)
   - [本缠](./thought/benchan.md)
+  - [自私](./thought/zisi.md)
+  - [画弟自牢](./thought/huadizilao.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
