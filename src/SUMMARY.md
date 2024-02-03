@@ -30,6 +30,7 @@
   - [画地自牢](./thought/huadizilao.md)
   - [眼和意与智慧](./thought/yanheyiyuzhihui.md)
   - [都在规则之中，规则仅仅是规则](./thought/douzaiguizezhizhongguizejinjinshiguize.md)
+  - [认清目标寻找条件](./thought/renqingmubiaoxunzhaotiaojian.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
