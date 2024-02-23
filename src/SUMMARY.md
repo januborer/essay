@@ -33,6 +33,7 @@
   - [认清目标寻找条件](./thought/renqingmubiaoxunzhaotiaojian.md)
   - [“无为”或将更有利与人类幸福](./thought/wuweihuojianggengyouliyurenleixingfu.md)
   - [“躺平”，“不努力”或更有益处](./thought/tangpingbunulihuogengyouyichu.md)
+  - [见相非相，即见如来](./thought/jianxiangfeixiangjijianrulai.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
