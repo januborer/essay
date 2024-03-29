@@ -36,6 +36,7 @@
   - [见相非相，即见如来](./thought/jianxiangfeixiangjijianrulai.md)
   - [更疯狂更堕落](./thought/gengfengkuanggengduoluo.md)
   - [人是无限的](./thought/renshiwuxiande.md)
+  - [人不可能一样](./thought/renbukenengyiyang.md)
   <!-- - [人民和上帝](./thought/renminheshangdi.md) -->
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
