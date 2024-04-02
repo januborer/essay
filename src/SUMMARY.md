@@ -37,6 +37,7 @@
   - [更疯狂更堕落](./thought/gengfengkuanggengduoluo.md)
   - [人是无限的](./thought/renshiwuxiande.md)
   - [人不可能一样](./thought/renbukenengyiyang.md)
+  - [高明的人大多沉默](./thought/gaomingderendaduochenmo.md)
   <!-- - [人民和上帝](./thought/renminheshangdi.md) -->
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
