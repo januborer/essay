@@ -40,6 +40,7 @@
   - [高明的人大多沉默](./thought/gaomingderendaduochenmo.md)
   - [空](./thought/kong.md)
   - [“名”，“形”，“性”，“神”](./thought/mingxingxingshen.md)
+  - [灌什么就是什么](./thought/guanshenmjiushishenme.md)
   <!-- - [人民和上帝](./thought/renminheshangdi.md) -->
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
