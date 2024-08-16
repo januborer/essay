@@ -46,7 +46,7 @@
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
 - [读书笔记](./books/summary.md)
-  - [处事书籍](./books/weirenchushi.md)
+  <!-- - [处事书籍](./books/weirenchushi.md) -->
 - [优秀文章](./youxiu/summary.md)
   <!-- - [诺贝尔奖得主：东亚教育浪费了太多生命](./youxiu/nbejdzdyjylfltdsm.md) -->
   - [The Unabomber Manifesto](./youxiu/lungongyeshehuijiqiweilai.md)
