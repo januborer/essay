@@ -1,36 +1,15 @@
 [book]
 authors = ["januborer"]
 language = "en"
-multilingual = false
 src = "src"
 title = "随笔"
-description = "个人思想觉悟记录,borer,januborer,道，自然，如来"
-
-[rust]
-edition = "2021"
+description = "个人思想觉悟记录,borer,januborer,道，自然，如来，CS"
 
 [build]
 build-dir = "book"
 create-missing = true
 use-default-preprocessors = true
 
-[output.html]
-# mathjax-support = true
-# theme = "my-theme"
-default-theme = "light"
-preferred-dark-theme = "navy"
-curly-quotes = true
-mathjax-support = true
-copy-fonts = true
-# additional-css = ["custom.css", "custom2.css"]
-# additional-js = ["custom.js"]
-no-section-label = false
-git-repository-url = "https://github.com/januborer/essay"
-git-repository-icon = "fa-github"
-# edit-url-template = "https://github.com/januborer/essay/edit/main/{path}"
-site-url = "/essay/"
-# cname = "myproject.rs"
-# input-404 = "not-found.md"
 
 [output.html.print]
 enable = false

@@ -17,7 +17,6 @@
   - [汉奸](./thought/hanjian.md)
   - [对错](./thought/duicuo.md)
   - [人生的意思](./thought/renshengdeyisi.md)
-  - [陌生事物学习](./thought/renshengdeyisi.md)
   - [眼耳鼻舌身-->记忆](./thought/yanerbisheshenjiyi.md)
   - [选拔大赛](./thought/xuanbadasai.md)
   - [官方](./thought/guanfang.md)
@@ -43,11 +42,20 @@
   - [灌什么就是什么](./thought/guanshenmjiushishenme.md)
   - [天人二元](./thought/tianreneryuan.md)
   <!-- - [人民和上帝](./thought/renminheshangdi.md) -->
+- [CS](./cs/summary.md)
+  - [linux](./cs/linux/summary.md)
+    - [arch_install](./cs/linux/arch_install.md)
+    - [tools](./cs/linux/tools.md)
 - [收集](./collection/summary.md)
   - [温家宝总理卸任时的话](./collection/wenjiabaoxierenshijianghua.md)
+  - [马斯克访谈实录](./collection/masikefangtanshilu.md)
 - [读书笔记](./books/summary.md)
+    - [如何阅读一本书](./books/ruheyueduyibenshu.md)
+    - [天局](./books/tianju.md)
+    - [豆豆三部曲精选](./books/doudousanbuqujingxuan.md)
   <!-- - [处事书籍](./books/weirenchushi.md) -->
 - [优秀文章](./youxiu/summary.md)
   <!-- - [诺贝尔奖得主：东亚教育浪费了太多生命](./youxiu/nbejdzdyjylfltdsm.md) -->
   - [The Unabomber Manifesto](./youxiu/lungongyeshehuijiqiweilai.md)
-
+- [其他](./others/summary.md)
+  - [Links](./others/links.md)
