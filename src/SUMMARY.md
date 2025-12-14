@@ -57,5 +57,7 @@
 - [优秀文章](./youxiu/summary.md)
   <!-- - [诺贝尔奖得主：东亚教育浪费了太多生命](./youxiu/nbejdzdyjylfltdsm.md) -->
   - [The Unabomber Manifesto](./youxiu/lungongyeshehuijiqiweilai.md)
+- [顺口溜](./shunkouliu/summary.md)
+    - [圣仁](./shunkouliu/shengren.md)
 - [其他](./others/summary.md)
   - [Links](./others/links.md)
