@@ -1,6 +1,7 @@
 # Links
 ## Common News
 - [Hanck news](https://news.ycombinator.com/)
+- [Lobste](https://lobste.rs/)
 - [Sanli](https://www.setn.com/)
 - [voa](https://www.voachinese.com/)
 - [BBC](https://www.bbc.com/)
@@ -54,6 +55,8 @@
 ## Tools
 - [Wiki](https://www.wikipedia.org/)
 - [Z-lib](https://z-lib.org/)
+- [firefox-pdf-reader](https://mozilla.github.io/pdf.js/web/viewer.html)
+
 
 ## Community
 - [Discord](https://discord.com/channels/@me)
