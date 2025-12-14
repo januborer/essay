@@ -41,6 +41,7 @@
   - [“名”，“形”，“性”，“神”](./thought/mingxingxingshen.md)
   - [灌什么就是什么](./thought/guanshenmjiushishenme.md)
   - [天人二元](./thought/tianreneryuan.md)
+  - [精力时间浪费](./thought/jinglishijianlangfei.md)
   <!-- - [人民和上帝](./thought/renminheshangdi.md) -->
 - [CS](./cs/summary.md)
   - [linux](./cs/linux/summary.md)
@@ -59,5 +60,6 @@
   - [The Unabomber Manifesto](./youxiu/lungongyeshehuijiqiweilai.md)
 - [顺口溜](./shunkouliu/summary.md)
     - [圣仁](./shunkouliu/shengren.md)
+    - [妄言](./shunkouliu/wangyan.md)
 - [其他](./others/summary.md)
   - [Links](./others/links.md)
