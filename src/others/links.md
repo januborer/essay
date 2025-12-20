@@ -29,7 +29,13 @@
   - [Geepractice](https://practice.geeksforgeeks.org/home)
   - [Leetcode](https://leetcode.com/)
 
-- [Github](https://github.com)
+- [Programming](https://github.com)
+  - [StackOverflow](http://stackoverflow.com/)
+  - [Github](https://github.com/)
+  - [CodeProject](http://codeproject.com/)
+  - [CodeCademy](http://www.codecademy.com/)
+  - [IBMDeveloperWorks](http://www.ibm.com/developerworks)
+  - [MSDN](http://msdn.microsoft.com/en-us/library/)
 
 - [Linux]()
   - [LWN](https://lwn.net/)
@@ -165,7 +171,7 @@
   - [hkcd](http://www.hkcd.com.hk/)
   - [businessweekly](http://www.businessweekly.com.tw/)
   - [nikkei](http://cn.nikkei.com/)
-#### IT
+## IT
   - [Wired](http://wired.com/)
   - [arstechnica](http://arstechnica.com/)
   - [TechCrunch](http://techcrunch.com/)
@@ -176,16 +182,8 @@
   - [Slashdot](http://www.slashdot.org/)
   - [MITReview](http://www.technologyreview.com/)
   - [V2EX](https://v2ex.com/)
-#### Sciences
+## Sciences
   - [Scientificamerican](http://www.scientificamerican.com/)
   - [huanquikexue](http://www.huanqiukexue.com)
   - [Songshuhui](http://songshuhui.net/)
   - [xys](http://www.xys.org/)
-
-#### Programming
-  - [StackOverflow](http://stackoverflow.com/)
-  - [Github](https://github.com/)
-  - [CodeProject](http://codeproject.com/)
-  - [CodeCademy](http://www.codecademy.com/)
-  - [IBMDeveloperWorks](http://www.ibm.com/developerworks)
-  - [MSDN](http://msdn.microsoft.com/en-us/library/)
