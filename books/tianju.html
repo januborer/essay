@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>天局 - 随笔</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="个人思想觉悟记录,borer,januborer,道，自然，如来，CS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-2459343d.css">
+        <link rel="stylesheet" href="../css/chrome-ae938929.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-990415bf.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-5cccc400.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">随笔</h1>
+
+                    <div class="right-buttons">
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="天局"><a class="header" href="#天局">天局</a></h1>
+<h4 id="作者矫健"><a class="header" href="#作者矫健">作者：矫健</a></h4>
+<p>西庄有个棋痴，人都称他混沌。他对万事模糊，惟独精通围棋。他走路跌跌斜斜，据说是踩着棋格走，步步都是绝招。棋自然是精了，却 没老婆——正值四十壮年。但他真正的苦处在于找不到对手，心中常笼 罩一层孤独。他只好跟自己下棋。</p>
+<p>南三十里有个官屯小村，住着一位小学教师，是从北京迁返回乡 的。传说他是围棋国手，段位极高，犯了什么错误，才窝在这山沟旮旯 里。混沌访到这位高手，常常步行三十里至官屯弈棋。 混沌五大三粗，脸庞漆黑，棋风刚勇无比，善用一招“镇神头”，搏杀极凶狠。教师头回和他下棋，下到中盘，就吃惊地抬起头来：“你的 杀力真是罕见！”混沌谦虚地点点头。但教师收官功夫甚是出色，慢慢 地将空拣回来。两人惺惺棤惺惺，英雄识英雄，成为至交。教师常把些 棋界事情讲给他听。讲到近代日本围棋崛起，远胜中国，混沌就露出鲁 莽性了：“妈的，杀败日本！”</p>
+<p>混沌确是怪才。儿时，一位瘸子老塾师教会他围棋。三年自然灾 害，先生饿死了。混沌自生自长，跑野山，喝浑水，出息成一条铁汉。 那棋，竟也浑然天成，生出一股巨大的蛮力，常在棋盘上搅起狂风骇 浪，令对手咋舌。无论怎样坚实的堡垒，他强攻硬打，定将其摧毁。好 像他伸出一双粗黑的大手，推着泰山在棋盘上行走。官屯教师常常感 叹：“这股力量从何而来？国家队若是……”仿佛想起什么，下半句话打 住。</p>
+<p>腊月三十，混沌弄到了一只猪头。他便绕着猪头转圈，嘴里嘀 咕：“能过去年吗？能吃上猪头吗？落魄的人哪！”于是背起猪头，决意 到官屯走一遭。 时值黄昏，漫天大雪。混沌刚出门，一身黑棉衣裤就变了白。北风 呼啸，仿佛有无数人劝阻他：“混沌，别走！这大的雪——” “啊，不！” 千人万人拉不住他，他执拗而任性地投入原野。雪团团簇簇如浓烟 翻滚。群山摇摇晃晃如醉汉不能守静。风雨夹裹逼得混沌陀螺似的旋 转，睁不开眼睛，满耳呼啸。天空中有隆隆声，神灵们驾车奔驰。冰河 早被覆盖，隐入莽莽雪原不见踪迹。天地化作一片，无限广大，却又无 限拥挤。到处潜伏着危险。 混沌走入山岭，渐渐迷失了方向。天已断黑，他深一脚浅一脚，在 雪地里跌跌撞撞。背上那猪头冻得铁硬，一下一下拱他脊背。他 想：“要糟！”手脚一软，跌坐在雪窝里。</p>
+<p>迷糊一阵，混沌骤醒。风雪已停，天上悬挂一弯寒冰，照得世界冷 寂。借月光，混沌发现自己身处一山坳，平整四方，如棋盘。平地一侧 是刀切般的悬崖，周围黑黝黝大山环绕。混沌晓得这地方，村人称作迷 魂谷。陷入此谷极难脱身，更何况这样一个雪夜！混沌心中惊慌，拔脚 就走。然而身如着魔，转来转去总回到那棋盘。夜已深。雪住天更寒。混沌要冻作冰块，心里却还清醒：“妈的， 不能在这儿冻死！”四下巡视，发现山上皆黑石，块块巨大如牛。他索 性不走，来回搬黑石取暖。本来天生蛮力，偌大的石块一叫劲，便擎至 胸腹。他将黑石一块块置于平地。身子暖了，脑子却渐渐懵懂，入睡似 的眼前模糊起来。</p>
+<p>他似乎转过几个山角，隐约看见亮光。急赶几步，来到一座雅致的 茅屋前。混沌大喜：“今日得救了！”莽莽撞撞举拳擂门。屋里有人应 道：“是你来了。请！” 混沌进屋，但见迎面摆着一张大床，蚊帐遮掩，看不出床上躺着何 人。混沌稀奇：什么毛病？冬天怕蚊咬？蚊帐里传出病恹恹的声 音：“你把桌子搬来，这就与你下棋。” 混沌大喜：有了避风处，还捞着下棋，今晚好运气。又有几分疑 惑：听口气那人认得我，却不知是谁。他把桌子般到床前，不由得探头 朝蚊帐里张望。然而蚊帐似云似锦，叫他看不透。 “混沌，你不必张望，下棋吧！”</p>
+<p>混沌觉得羞惭，抓起一把黑子，支吾道：“老师高手，饶我执黑先 行。” 蚊帐中人并不谦让，默默等他行棋。混沌思忖良久，在右下角置一 黑子。蚊帐动动，伸出一只洁白的手臂。混沌觉眼前一亮！那白臂如蛇 游靠近棋盒，二指夹起一枚白子擎至空中，叭一声脆响，落子棋盘。混沌大惊：这全不是常规下法！哪有第一着占天元位置的？他 伸长脖颈，想看看蚊帐里究竟是什么人。 “你不必张望，你见不到我。” 声音绵绵软软如病中吟，比女子更细弱；但又带着仙气，仿佛从高 远处传来，隐隐约约却字字清晰。这声音叫混沌深感神秘，暗叹今夜有 了奇遇。混沌抖擞精神，准备一场好战！</p>
+<p>棋行十六着，厮杀开始。白棋飞压黑右下角，混沌毅然冲断。他自 恃棋力雄健，有仗可打从不放手。白棋黑棋各成两截，四条龙盘卷翻腾 沿边向左奔突。混沌素以快棋著称，对方更是落子如飞。官庄教师常说混沌棋粗，蚊帐中人却快而缜密。混沌惊愕之心有增无减，更使足十二 分蛮力。白棋巧妙地逼他做活，他却又把一条白龙截断。现在谁也没有 退路了，不吃对方的大龙必死无疑。 围棋，只黑白二子，却最体现生存竞争的本质。它又不像象棋，无 帅卒之分，仿佛代表天地阴阳，赤裸裸就是矛盾。一旦自己的生存受到 威胁，谁不豁出老命奋起抗争呢？此刻，右下角燃起的战火越烧越旺， 厮杀极惨烈。混沌不顾一切地揪住一条白棋，又镇又压，穷追猛打。白 棋却化作涓涓细流，悄悄地在黑缝中流淌，往黑棋的左上角渗透。假若 不逮住这条白龙，黑棋将全军覆灭。混沌额上沁出一层汗珠，心中狂 呼：“来吧！拼吧！”义无反顾地奔向命运的决战场——左上角。 第九十八手，白棋下出妙手！蚊帐中人利用角部做了一个劫，即使 混沌劫胜了，也必须连走三手才能吃尽白棋。混沌傻眼了。这岂止是妙 手？简直是鬼手！但是，混沌没有回旋余地，只得一手一手把白棋提 尽。蚊帐中人则利用这劫，吃去黑右下角，又封住一条黑龙。 现在，轮到混沌逃龙了。可是举目一望，周围白花花一片，犹如漫 天大雪铺天盖地压来。混沌手捏一枚黑子，泥塑般呆立。一子重千钧 啊！他取胜一役，但又将败于此役。只有逃出这条龙，才能使白棋无法 挽回刚才的损失。然而前途渺茫，出路何在？ 正为难时，一阵阴风扑开门，瘸瘸拐拐进来个老先生。混沌闻声回 头，见是那死去多年的私塾先生。既已死，怎地又在这荒山僻野露脸？ 太蹊跷！紧急中混沌顾不得许多，连呼：“老师，老师，帮我一把！” 私塾先生瘸至桌前，捻着山羊胡子俯身观棋。阴气沉重，压得灯火 矮小如豆。那白臂翘起食指，对准罩子灯一点，火苗倏地跳起，大放光 明。老先生一惊，身子翻仰，模样十分狼狈。</p>
+<p>“哼哼。”帐内冷笑。 混沌心中愤愤：这局棋，定要赢！一股热血冲向脑门，阳刚之气逼 得黑发霍霍竖起。 瘸子先生似乎知道对手不是常人，一招手，门外进来他的同伴，先 入二人羽扇纶巾，气宇轩昂，正是清代围棋集大成者：飘飘然大师范西 屏，妙手盖天施襄夏。他们在当湖对弈十局，成为围棋经典；施襄夏因心力耗尽，终局时呕血而死。再进来一位，明代国手过百龄，他著的 《官子谱》至今流传。宋代的围棋宗师刘仲甫扶着龙头拐的骊山老母蹒 跚而入。一千年前他们在骊山脚下大战，只三十六着，胜负便知。直至 春秋时代的弈秋进屋，围棋史上英豪们便来齐了。</p>
+<p>混沌端坐桌前。他再不猜测这些人如何来到人间，只把目光集中在 那只手上。洁白如玉的手，如此超然，如此绝对，一圈神圣的光环围绕 着它。它仿佛一直是人、鬼、神的主宰，一直是天地万物的主宰。它是 不可抗拒的，不可超越的。混沌明白，他是在与无法战胜的对手交战。 他想赢，一定要赢！</p>
+<p>大师们皆不言语，神情庄严肃穆。混沌的穴位被一人一指按住，或 风池或太阳，或大推或命门。霎时间灵气盈盈，人类智慧集于混沌一 身。他觉得脑子清明，心中生出许多棋路，更有一种力量十倍百倍地在 体内澎湃。他拿起黑子，毅然投下，然后昂起头，目光灼灼，望着蚊帐 里不可知的对手。 中原突围开始。混沌在白棋大模样里辗转回旋，或刺或飞，或尖或 跳，招数高妙决非昔日水平，连他自己也惊讶不已。然而蚊帐中人水涨 船高，棋艺比刚才更胜几筹。那白棋好似行云流水，潇洒自如，步步精 深，招招凶狠，逼得黑棋没有喘息的机会。黑棋仿佛困在笼中的猛兽， 暴跳如雷，狂撕乱咬，却咬不开白棋密密匝匝的包围圈。混沌双目瞪 圆，急汗如豆。棋盘上黑棋败色渐浓。</p>
+<p>忽然，混沌脑中火花一闪，施出一着千古奇绝的手筋。白棋招架之 际露出一道缝隙，黑棋敏捷地逮住时机，硬挤出白色的包围圈。现在， 右边广阔的处女地向他招手。只要安全到达右边，黑色的大龙就能成 活。但是，白棋岂肯放松？旁敲侧击，步步紧逼，设下重重障碍。黑棋 艰难地向右边爬行。追击中，白棋截杀黑龙一条尾巴。这一损失教混沌 心头剧痛，好像被人截去一只左脚。他咬着牙，继续向处女地进军。白 棋跳跶闪烁，好似舞蹈着的精灵，任意欺凌负伤的黑龙。黑龙流着血， 默默地呻吟着，以惊人的意志爬向目的地。只要有一线生存的希望，无 论忍受多少牺牲，混沌都顽强地抓牢不放！棋盘上弥漫着沉闷的气氛。 人生的不幸，似乎凝聚在这条龙身上。命运常常这样冷酷地考验人的负 荷能力。</p>
+<p>终于，混沌到达了彼岸。他马上返过身，冲击白棋的簙弱处。蚊帐 中人翘起食指，指尖闪耀五彩光辉。这是一种神秘的警告。混沌定定地望着那手指，朦胧地感到许多自己从不知晓的东西。白子叭地落在下 边，威胁着刚刚逃脱厄运的黑龙。他必须止步。他必须放弃进攻，就地 做活。但是，这样活多么难受啊！那是令人窒息的压迫，你要活，就必 须像狗一样。混沌抬起头，那食指依然直竖，依然闪耀着五彩光辉。浑 沌把头昂得高高，夹起一枚黑子，狠狠地打入白阵！ 这是钢铁楔子，刚刚追击黑龙的白棋，被钉在将遭歼灭的耻辱柱 上。下边的白棋又跳一手，夺去黑龙的眼位，使它失去最后的生存希 望。于是，好像两位立在悬崖边上的武士，各自抽出寒光闪闪的宝剑， 开始一场你死我活的决斗。</p>
+<p>这是多么壮烈的决斗啊！围棋在此显示出慷慨悲歌的阳刚之美：它 不是温文尔雅的游戏，它是一场血肉横飞的大搏杀！看，混沌使出天生 蛮力，杀得白棋惨不忍睹；蚊帐中人猛攻黑龙，一口接一口地紧气，雪 白的手臂竟如此阴冷，刽子手一样扼住对手的喉咙。混沌走每一步棋， 都仿佛在叫喊：“我受够了！我今天才像一条汉子！”白棋却简短而森人 地回答：“你必死！”黑棋的攻势排山倒海，招招带着冲天的怒气。一个 复仇的英雄才会具备那样的力量，这力量如此灼热，犹如刚刚喷出火山 口的岩浆，浩浩荡荡，毁灭万物。白棋置自己的阵地不顾，专心致志地 扼杀黑龙。两位武士都不防卫，听任对方猛砍自己的躯体，同时更加凶 恶地刺向对方的要害。</p>
+<p>屋外响起一声琵琶，清亮悠扬。琵琶先缓后急，奏的是千古名曲 《十面埋伏》。又有无数琵琶应和，嘈嘈切切，声环茅屋。小小棋盘升 起一股血气，先在屋内盘桓，积蓄势大，冲破茅屋，红殷殷直冲霄汉。 天空忽然炸响焦雷，继而群雷滚滚而下。琵琶声脆音亮，激越如潮，仿 佛尖利的锥子，刺透闷雷，挺头而出。两者互压互盖，反复交错，伴那 一柱血光，渲染得天地轰轰烈烈。</p>
+<p>蚊帐中人吃了混沌的黑龙，混沌霸占了先前白阵。沧海桑田，一场 大转换。棋细势均，胜负全在官子上。混沌回头看看，列位先师耗尽真 力，已是疲惫不堪。混沌方知这场大战非自己一人所为。人、鬼、神结 为一阵，齐斗那高深莫测一只手。</p>
+<p>官子争夺亦是紧张。俗语道：“官子见棋力”。那星星点点的小地 方，都是寸土必争；精细微妙，全在其中。《官子谱》、《玄玄棋经》 连珠妙着尽数用上，妙中见巧，巧中见奇。小小棋盘，竟是大千世界。棋圣们一面绞尽脑汁，一面审度形势。范西屏丢了羽扇，先失飘然 神韵；刘仲甫扯去纶巾，不见大家风采。瘸子先生挨不到桌边，急得鼠 窜，却被诸多大腿一绊一跌，显出饿死鬼的猴急。骊山老母最擅计算， 已知结局，扁着没牙嘴巴喃喃道：“胜负半子，全在右下角那一劫 上……”心里急，手上一运仙力，竟把龙头拐杖折断。 果然，官子收尽，开始了右下角的劫争。围棋创造者立下打劫规 则，真正奇特之极：出现双方互相提子的局面，被提一方必须先在别处 走一手棋，逼对方应了，方可提还一子。如此循环，就叫打劫。打劫胜 负，全在双方掌握的劫材上。混沌的大龙死而不僵，此时成了好劫材， 逼得蚊帐中人一手接一手应，直到提尽为止。黑阵内的白棋残子也大肆 骚乱，扰得混沌终不得粘劫。两个人你提过去，我提回来，为此一直争 得头破血流。</p>
+<p>鸡将啼，天空东方一颗大星雪亮。混沌劫材已尽，蚊帐中人恰恰多 他一个。大师们一起伸长脖颈，恨不得变作棋子跳入棋盘。然而望眼欲 穿，终于不能替混沌找出一个劫材。一局好棋，眼看输在这个劫上。满 桌长吁短叹，皆为半子之负嗟棤。混沌呆若木鸡，一掬热泪滚滚而下。 列位棋祖转向混沌，目光沉沉。混沌黑袄黑裤，宛如一颗黑棋子。 祖师们伸手指定混沌，神情庄严地道：“你去！你做劫材！” 混沌巍巍站起。霎时屋内外寂静，空气凝结。混沌一腔慷慨，壮气 浩然。推金山，倒玉柱，混沌长跪于地。 “罢，混沌舍啦！” 蚊帐中人幽幽叹息：“唉……”一只白臂徐徐缩回，再不复出。</p>
+<p>混沌背猪头出西庄，几日不回。西庄人记得除夕雪大，不禁惴惴。 知底细者都道混沌去了官屯，便打发些腿快青年去寻。官屯小学教师见 西庄来人，诧异道：“我没有见到混沌，他哪来我这里？” 众人大惊，漫山遍野搜寻混沌。教师失棋友心焦急，不顾肺病，严 寒里东奔西颠。半日不见混沌踪迹，便有民兵报告公安局。 有一老者指点道：“何不去迷魂谷找找？那地方多事。”于是西庄、 官屯两村民众，蜂拥至迷魂谷。迷魂谷白雾漫漫。人到雾收，恰似神人卷起纱幔。众人举目一望， 大惊大悲。只见谷中棋盘平地，密匝匝布满黑石。混沌跪在右下角，人 早冻僵；昂首向天，不失倔犟傲气。一只猪头搁在树下，面貌凄然。 混沌死了。有西庄人将猪头捧来，告诉教师：只因混沌送猪头给他 过年，才冻僵于此。教师紧抱猪头，被棋友情义感至肺腑，放声嚎啕， 悲怆欲绝。</p>
+<p>有人诧异：混沌背后是百丈深谷，地势极险，他却为何跪死此地？ 众人作出种种推测，议论纷纷。教师亦觉惶惑，止住泣涕，四处蹒跚寻 思。</p>
+<p>他在黑石间转绕几圈，又爬到高处，俯瞰谷地。看着看着，不觉失 声惊叫：“咦——” 谷地平整四方如棋盘，黑石白雪间隔如棋子，恰成一局围棋。教师 思忖许久，方猜出混沌冻死前搬石取暖，无意中摆出这局棋。真是棋 痴！再细观此局，但见构思奇特，着数精妙，出磅礴大气，显宇宙恢 宏，实在是他生平未见的伟大作品。群山巍峨，环棋盘而立；长天苍 苍，垂浓云而下；又有雄鹰盘旋山涧，长啸凄厉…… 官屯教师身心震动，肃穆久立。</p>
+<p>众人登山围拢教师，见他异样神情皆不解。纷纷问道：“你看什 么？混沌干啥？”教师答：“下棋。”“深山旷野，与谁下棋？”教师沉默 不语。良久，沉甸甸道出一字：“天！”</p>
+<p>俗人浅见，喳喳追问：“赢了还是输了？”</p>
+<p>教师细细数目。数至右下角，见到那个决定胜负的劫。混沌长跪于 地，充当一枚黑子，恰恰劫胜！教师崇敬混沌精神，激情澎湃。他双手 握拳冲天高举，喊得山野震荡，林木悚然——“胜天半子！</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../books/ruheyueduyibenshu.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../books/doudousanbuqujingxuan.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../books/ruheyueduyibenshu.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../books/doudousanbuqujingxuan.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+        <script src="../ace-2a3cd908.js"></script>
+        <script src="../mode-rust-2c9d5c9a.js"></script>
+        <script src="../editor-16ca416c.js"></script>
+        <script src="../theme-dawn-4493f9c8.js"></script>
+        <script src="../theme-tomorrow_night-9dbe62a9.js"></script>
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-c2a407aa.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
